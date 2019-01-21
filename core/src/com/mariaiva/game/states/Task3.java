@@ -1,19 +1,28 @@
 package com.mariaiva.game.states;
 
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.utils.Align;
 import com.mariaiva.game.Ex1;
 import com.mariaiva.game.sprites.Helicopter;
 
-import sun.java2d.marlin.FloatMath;
 
 public class Task3 extends State{
 
     private Helicopter heli1;
 
+
+    private BitmapFont font;
+    private GlyphLayout layout;
+
     public Task3(GameStateManager gsm) {
         super(gsm);
-        heli1 = new Helicopter(100,100);
+        heli1 = new Helicopter(100,30);
+
+        font = new BitmapFont();
+        layout = new GlyphLayout(font, "Null", Color.GOLD, 80, Align.left, false);
     }
 
     @Override
@@ -23,29 +32,25 @@ public class Task3 extends State{
 
     @Override
     public void update(float dt) {
-        if(heli1.getPosition().x + heli1.getHeli1().getWidth() > Ex1.WIDTH || heli1.getPosition().x < 0){
-            heli1.changeDirection();
-        }
-        double angle = Math.random() * Math.PI;
-        Vector2 direction = new Vector2((float)Math.cos(angle),(float)Math.sin(angle));
-        float new_x = heli1.getPosition().x + heli1.getSpeed() * direction.x;
-        float new_y = heli1.getPosition().y + heli1.getSpeed() * direction.y;
-        if(new_x < 0 || new_x + heli1.getHeli1().getWidth() > Ex1.WIDTH)
-        heli1.getPosition().x = new_x;
-        heli1.getPosition().y = new_y;
-
+        heli1.getAnim().update(dt);
+        heli1.moveRandomly(3);
     }
 
-    public static double getRandomNumber(){
-        double x = Math.random();
-        return x;
-    }
+
 
     @Override
     public void render(SpriteBatch sb) {
+        float x = heli1.getX();
+        float y = heli1.getY();
+
         sb.begin();
         sb.enableBlending(); // How to make pink background become transparent for the helicopter?
-        sb.draw(heli1.getHeli1(),heli1.getPosition().x, heli1.getPosition().y);
+        sb.draw(heli1.getAnim().getFrame(),x, y);
+
+        String s = String.valueOf(Math.round(x)) + ", " + String.valueOf(Math.round(y)) + "; "
+                + String.valueOf(heli1.direction.x) + ", " + String.valueOf(heli1.direction.y);
+        layout.setText(font, s);
+        font.draw(sb, layout, 10, Ex1.HEIGHT - 10);
         sb.end();
     }
 

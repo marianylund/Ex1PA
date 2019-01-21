@@ -1,0 +1,33 @@
+birds.png
+size: 834, 1962
+format: RGBA8888
+filter: MipMapNearestLinear,Linear
+repeat: none
+frame-1
+  rotate: false
+  xy: 1, 451
+  size: 832, 468
+  orig: 844, 580
+  offset: 9, 102
+  index: -1
+frame-2
+  rotate: false
+  xy: 1, 1
+  size: 832, 448
+  orig: 844, 580
+  offset: 9, 102
+  index: -1
+frame-3
+  rotate: false
+  xy: 1, 1417
+  size: 832, 544
+  orig: 844, 580
+  offset: 9, 6
+  index: -1
+frame-4
+  rotate: false
+  xy: 1, 921
+  size: 832, 494
+  orig: 844, 580
+  offset: 9, 56
+  index: -1

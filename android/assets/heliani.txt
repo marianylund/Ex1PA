@@ -1,0 +1,33 @@
+heliani.png
+size: 648, 65
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heli1
+  rotate: false
+  xy: 0, 0
+  size: 162, 65
+  orig: 162, 65
+  offset: 0, 0
+  index: -1
+heli2
+  rotate: false
+  xy: 162, 0
+  size: 162, 65
+  orig: 162, 65
+  offset: 0, 0
+  index: -1
+heli3
+  rotate: false
+  xy: 324, 0
+  size: 162, 65
+  orig: 162, 65
+  offset: 0, 0
+  index: -1
+heli4
+  rotate: false
+  xy: 486, 0
+  size: 162, 65
+  orig: 162, 65
+  offset: 0, 0
+  index: -1

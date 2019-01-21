@@ -2,24 +2,20 @@ package com.mariaiva.game.sprites;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import com.mariaiva.game.Ex1;
 
-import java.io.Console;
-
-import sun.rmi.runtime.Log;
-import sun.security.ssl.Debug;
-
-public class Helicopter {
+public class Helicopter extends Movable{
     private int speed = -70;
 
     public static final float ACCELERATION = 200f;
     //public static final float MAX_VELOCITY_X = 200f;
 
-    private Texture heli1;
-    private Sprite sheli1;
+
 
     private Vector2 velocity, acceleration, position;
+    public Animation heliAnimation;
 
     public Vector2 getAcceleration() {
         return acceleration;
@@ -36,8 +32,10 @@ public class Helicopter {
     private MoveState movestate = MoveState.STOP;
 
     public Helicopter(int x, int y){
-        heli1 = new Texture("heli1.png");
-        sheli1 = new Sprite(heli1);
+        super("heli1.png",new Animation(new TextureRegion(new Texture("heliani.png")), 4, 0.4f));
+
+        this.setX(x);
+        this.setY(y);
 
         position = new Vector2(x, y);
         velocity = new Vector2(0, 0);
@@ -51,8 +49,8 @@ public class Helicopter {
 
     public void update(float delta){
         if (       movestate == MoveState.LEFT && position.x > 0
-                || movestate == MoveState.RIGHT && position.x + heli1.getWidth() < Ex1.WIDTH
-                || movestate == MoveState.UP &&  position.y + heli1.getHeight() < Ex1.HEIGHT
+                || movestate == MoveState.RIGHT && position.x + this.getWidth() < Ex1.WIDTH
+                || movestate == MoveState.UP &&  position.y + this.getHeight() < Ex1.HEIGHT
                 || movestate == MoveState.DOWN && position.y > 0)
         {
             fly(delta);
@@ -80,7 +78,7 @@ public class Helicopter {
 
 
     public Sprite getHeli1() {
-        return sheli1;
+        return this.getObj();
     }
 
     public Vector2 getPosition() {
@@ -89,7 +87,7 @@ public class Helicopter {
 
     public void changeDirection(){
         speed *= -1;
-        sheli1.flip(true,false);
+        //this.getObj().flip(true,false);
     }
 
     public int getSpeed() {
@@ -97,18 +95,18 @@ public class Helicopter {
     }
 
     public void dispose(){
-        heli1.dispose();
+        // do not yet know how to dispose of Sprite -> should look into AssetManager
     }
 
     public void left(){
-        sheli1.setFlip(false, false);
+        this.getObj().setFlip(false, false);
         movestate = MoveState.LEFT;
         acceleration.set(-ACCELERATION, 0);
 
     }
 
     public void right(){
-        sheli1.setFlip(true, false);
+        this.getObj().setFlip(true, false);
         movestate = MoveState.RIGHT;
         acceleration.set(ACCELERATION, 0);
     }
