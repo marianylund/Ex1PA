@@ -15,7 +15,6 @@ public class Helicopter extends Movable{
 
 
     private Vector2 velocity, acceleration, position;
-    public Animation heliAnimation;
 
     public Vector2 getAcceleration() {
         return acceleration;
@@ -76,7 +75,7 @@ public class Helicopter extends Movable{
         }
     }
 
-
+    public Animation getHeliAnimation(){return this.getAnim();}
     public Sprite getHeli1() {
         return this.getObj();
     }

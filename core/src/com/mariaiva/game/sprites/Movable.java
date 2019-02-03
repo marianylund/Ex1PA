@@ -1,8 +1,8 @@
 package com.mariaiva.game.sprites;
 
-
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
 import com.mariaiva.game.Ex1;
@@ -17,11 +17,12 @@ public class Movable {
     private boolean right;
     private String debugStr;
 
-    public Movable(String path){
+    public Movable(TextureAtlas ta, Animation anim){
 
-        this.obj = new Sprite(new Texture(path));
+        this.obj = ta.createSprite("movable");
         right = false;
         direction = newDirection();
+        this.anim = anim;
         bounds = new Rectangle((int) getX(),(int) getY(),(int) getWidth(),(int) getHeight());
     }
 
@@ -31,6 +32,7 @@ public class Movable {
         right = false;
         direction = newDirection();
         bounds = new Rectangle((int) getX(),(int) getY(),(int) getWidth(),(int) getHeight());
+        this.anim = anim;
     }
 
     public void moveRandomly(int speed){
@@ -84,10 +86,24 @@ public class Movable {
         return new Vector2((float)Math.sin(angle),(float)Math.cos(angle));
     }
 
+    public void setXDirection(float x){
+        direction.x = x;
+    }
+    public void setYDirection(float y){
+        direction.y = y;
+    }
 
     public Vector2 getDirection() {
         return direction;
     }
+
+    public boolean collides(Rectangle obstacle){
+        if(obstacle.overlaps(bounds)){
+            System.out.println("Overlaps!");
+        }
+        return obstacle.overlaps(bounds);
+    }
+
 
     public Sprite getObj() {
         return obj;

@@ -1,8 +1,12 @@
 package com.mariaiva.game.sprites;
 
-public class Bird extends Movable{
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 
-    public Bird(String pathTexture, String pathAnim, int frameCount, float cycleTime) {
-        super(pathTexture, pathAnim, frameCount, cycleTime);
+public class Bird extends Movable {
+
+    public Bird(int x, int y){
+        super(new TextureAtlas("BirdA/birds.atlas"), new Animation(new TextureAtlas("BirdA/birds.atlas"), 4, 0.4f));
+        this.setX(x);
+        this.setY(y);
     }
 }
