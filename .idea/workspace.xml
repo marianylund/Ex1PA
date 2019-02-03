@@ -77,13 +77,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="14123" />
+          <entry key="java" value="14615" />
           <entry key="xml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14123" />
+          <entry key="JAVA" value="14615" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="23" />
         </counts>
@@ -107,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="51" column="38" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="38" />
+            <state relative-caret-position="1479">
+              <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,25 +131,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="57" column="70" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="70" />
+            <state relative-caret-position="374">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#bounceOff#0;class#Ball#0" />
-                <element signature="e#3783#3784#0" expanded="true" />
-                <element signature="e#3836#3837#0" expanded="true" />
-                <element signature="e#3872#3873#0" expanded="true" />
-                <element signature="e#3903#3904#0" expanded="true" />
-                <element signature="e#3952#3953#0" expanded="true" />
-                <element signature="e#3992#3993#0" expanded="true" />
-                <element signature="e#4032#4033#0" expanded="true" />
-                <element signature="e#4067#4068#0" expanded="true" />
-                <element signature="e#4124#4125#0" expanded="true" />
-                <element signature="e#4172#4173#0" expanded="true" />
-                <element signature="e#4207#4208#0" expanded="true" />
-                <element signature="e#4238#4239#0" expanded="true" />
-                <element signature="e#4279#4280#0" expanded="true" />
-                <element signature="e#4307#4308#0" expanded="true" />
+                <element signature="e#3397#3398#0" expanded="true" />
+                <element signature="e#3450#3451#0" expanded="true" />
+                <element signature="e#3821#3822#0" expanded="true" />
+                <element signature="e#3852#3853#0" expanded="true" />
+                <element signature="e#3893#3894#0" expanded="true" />
+                <element signature="e#3921#3922#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,7 +186,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
+            <state relative-caret-position="1292">
               <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -208,7 +199,7 @@
         <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+              <caret line="49" column="51" selection-start-line="47" selection-start-column="7" selection-end-line="49" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -306,8 +297,8 @@
         <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Moving.java" />
         <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/Ex1.java" />
         <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Paddle.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java" />
         <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java" />
       </list>
     </option>
   </component>
@@ -704,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/InputPong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -766,16 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Moving.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -811,16 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Paddle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -831,27 +795,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="57" column="70" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="70" />
+        <state relative-caret-position="1292">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#bounceOff#0;class#Ball#0" />
-            <element signature="e#3783#3784#0" expanded="true" />
-            <element signature="e#3836#3837#0" expanded="true" />
-            <element signature="e#3872#3873#0" expanded="true" />
-            <element signature="e#3903#3904#0" expanded="true" />
-            <element signature="e#3952#3953#0" expanded="true" />
-            <element signature="e#3992#3993#0" expanded="true" />
-            <element signature="e#4032#4033#0" expanded="true" />
-            <element signature="e#4067#4068#0" expanded="true" />
-            <element signature="e#4124#4125#0" expanded="true" />
-            <element signature="e#4172#4173#0" expanded="true" />
-            <element signature="e#4207#4208#0" expanded="true" />
-            <element signature="e#4238#4239#0" expanded="true" />
-            <element signature="e#4279#4280#0" expanded="true" />
-            <element signature="e#4307#4308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="49" column="51" selection-start-line="47" selection-start-column="7" selection-end-line="49" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3397#3398#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3821#3822#0" expanded="true" />
+            <element signature="e#3852#3853#0" expanded="true" />
+            <element signature="e#3893#3894#0" expanded="true" />
+            <element signature="e#3921#3922#0" expanded="true" />
           </folding>
         </state>
       </provider>

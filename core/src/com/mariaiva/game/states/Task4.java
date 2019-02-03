@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Align;
+import com.mariaiva.game.Ex1;
 import com.mariaiva.game.sprites.Pong.Ball;
 import com.mariaiva.game.sprites.Pong.InputPong;
 import com.mariaiva.game.sprites.Pong.Moving;
@@ -20,6 +21,9 @@ public class Task4 extends State {
     private Ball ball;
     private Moving leftP;
     private Moving rightP;
+
+    private int scoreLeft;
+    private int scoreRight;
 
 
     public Task4(GameStateManager gsm) {
@@ -47,6 +51,17 @@ public class Task4 extends State {
         leftP.update(dt);
         rightP.update(dt);
 
+        if(ball.flewOut()){
+            if(ball.getY() < 0)
+                scoreRight++;
+            else
+                scoreLeft++;
+            if(scoreRight == 21 || scoreLeft == 21){
+                System.out.println("GameOver");
+            } else {
+                ball.restartPosition();
+            }
+        }
         if(ball.getBouncing()){
             if(colliding()==null && ball.insideWalls()){
                 ball.setBouncing(false);
@@ -69,6 +84,10 @@ public class Task4 extends State {
         sb.draw(leftP.getObj(),leftP.getX(), leftP.getY());
         sb.draw(rightP.getObj(),rightP.getX(), rightP.getY());
         sb.draw(ball.getObj(), ball.getX(), ball.getY());
+
+        String s = String.valueOf(scoreLeft) + " || " + String.valueOf(scoreRight);
+        layout.setText(font, s);
+        font.draw(sb, layout, 10, Ex1.HEIGHT - 10);
 
         sb.end();
     }
