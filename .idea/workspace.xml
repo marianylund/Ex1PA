@@ -7,46 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb5cb823-16cc-4c13-b363-9ae0ba2d4526" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/assets/Pong/ball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Pong/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/InputPong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Moving.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Paddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/annotation-processors.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exersice 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exersice 1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Bird A/frame-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/BirdA/frame-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Bird A/frame-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/BirdA/frame-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Bird A/frame-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/BirdA/frame-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Bird A/frame-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/BirdA/frame-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-mdpi/birds.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/BirdA/birds.atlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mariaiva/game/States/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mariaiva/game/States/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mariaiva/game/States/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mariaiva/game/States/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mariaiva/game/States/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mariaiva/game/States/Task3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mariaiva/game/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/Ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Helicopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Helicopter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Movable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mariaiva/game/desktop/DesktopLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mariaiva/game/desktop/DesktopLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/desktop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mariaiva/game/States/Task4.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mariaiva/game/States/Task4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,13 +77,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="13175" />
+          <entry key="java" value="14123" />
           <entry key="xml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13175" />
+          <entry key="JAVA" value="14123" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="23" />
         </counts>
@@ -131,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+            <state relative-caret-position="340">
+              <caret line="51" column="38" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,24 +131,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+            <state relative-caret-position="124">
+              <caret line="57" column="70" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2136#2137#0" expanded="true" />
-                <element signature="e#2189#2190#0" expanded="true" />
-                <element signature="e#2225#2226#0" expanded="true" />
-                <element signature="e#2256#2257#0" expanded="true" />
-                <element signature="e#2305#2306#0" expanded="true" />
-                <element signature="e#2345#2346#0" expanded="true" />
-                <element signature="e#2385#2386#0" expanded="true" />
-                <element signature="e#2420#2421#0" expanded="true" />
-                <element signature="e#2477#2478#0" expanded="true" />
-                <element signature="e#2525#2526#0" expanded="true" />
-                <element signature="e#2560#2561#0" expanded="true" />
-                <element signature="e#2591#2592#0" expanded="true" />
-                <element signature="e#2632#2633#0" expanded="true" />
-                <element signature="e#2660#2661#0" expanded="true" />
+                <element signature="method#bounceOff#0;class#Ball#0" />
+                <element signature="e#3783#3784#0" expanded="true" />
+                <element signature="e#3836#3837#0" expanded="true" />
+                <element signature="e#3872#3873#0" expanded="true" />
+                <element signature="e#3903#3904#0" expanded="true" />
+                <element signature="e#3952#3953#0" expanded="true" />
+                <element signature="e#3992#3993#0" expanded="true" />
+                <element signature="e#4032#4033#0" expanded="true" />
+                <element signature="e#4067#4068#0" expanded="true" />
+                <element signature="e#4124#4125#0" expanded="true" />
+                <element signature="e#4172#4173#0" expanded="true" />
+                <element signature="e#4207#4208#0" expanded="true" />
+                <element signature="e#4238#4239#0" expanded="true" />
+                <element signature="e#4279#4280#0" expanded="true" />
+                <element signature="e#4307#4308#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -328,9 +305,9 @@
         <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/InputPong.java" />
         <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Moving.java" />
         <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/Ex1.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java" />
         <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Paddle.java" />
         <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java" />
       </list>
     </option>
   </component>
@@ -579,7 +556,7 @@
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49959514" weight="0.06724512" />
@@ -727,16 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -762,6 +729,49 @@
             <element signature="e#1173#1174#0" expanded="true" />
             <element signature="e#1230#1231#0" expanded="true" />
             <element signature="e#1258#1259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/Ex1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Helicopter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#down#0;class#Helicopter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Movable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="873">
+          <caret line="85" column="74" selection-start-line="85" selection-start-column="74" selection-end-line="85" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2423#2424#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -801,43 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/Ex1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Helicopter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#down#0;class#Helicopter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Movable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="85" column="74" selection-start-line="85" selection-start-column="74" selection-end-line="85" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2423#2424#0" expanded="true" />
-            <element signature="e#2454#2455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/states/Task4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+        <state relative-caret-position="340">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -856,24 +833,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mariaiva/game/sprites/Pong/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+        <state relative-caret-position="124">
+          <caret line="57" column="70" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2256#2257#0" expanded="true" />
-            <element signature="e#2305#2306#0" expanded="true" />
-            <element signature="e#2345#2346#0" expanded="true" />
-            <element signature="e#2385#2386#0" expanded="true" />
-            <element signature="e#2420#2421#0" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2525#2526#0" expanded="true" />
-            <element signature="e#2560#2561#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-            <element signature="e#2632#2633#0" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
+            <element signature="method#bounceOff#0;class#Ball#0" />
+            <element signature="e#3783#3784#0" expanded="true" />
+            <element signature="e#3836#3837#0" expanded="true" />
+            <element signature="e#3872#3873#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3952#3953#0" expanded="true" />
+            <element signature="e#3992#3993#0" expanded="true" />
+            <element signature="e#4032#4033#0" expanded="true" />
+            <element signature="e#4067#4068#0" expanded="true" />
+            <element signature="e#4124#4125#0" expanded="true" />
+            <element signature="e#4172#4173#0" expanded="true" />
+            <element signature="e#4207#4208#0" expanded="true" />
+            <element signature="e#4238#4239#0" expanded="true" />
+            <element signature="e#4279#4280#0" expanded="true" />
+            <element signature="e#4307#4308#0" expanded="true" />
           </folding>
         </state>
       </provider>

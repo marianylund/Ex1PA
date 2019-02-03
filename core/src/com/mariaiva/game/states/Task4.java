@@ -48,12 +48,12 @@ public class Task4 extends State {
         rightP.update(dt);
 
         if(ball.getBouncing()){
-            if(colliding()==null){
+            if(colliding()==null && ball.insideWalls()){
                 ball.setBouncing(false);
             }
         } else {
             if(colliding()!=null){
-                ball.bounceOff(colliding());
+                ball.bounceOffThePaddle(colliding());
             }
         }
 

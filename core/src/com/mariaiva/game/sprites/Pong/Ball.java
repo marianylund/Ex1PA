@@ -11,35 +11,63 @@ public class Ball extends Moving {
     public static final float ACCELERATION = 200f;
     //public static final float MAX_VELOCITY_X = 200f;
 
-    private Vector2 velocity, acceleration;
+    private Vector2 velocity, acceleration, direction;
     float bounceAngle = 0.0f;
     private boolean bouncing = false;
 
     public Ball(String pathTexture) {
         super(pathTexture);
         velocity = new Vector2(20, 20);
-        acceleration = new Vector2(0, 100f); // TODO randomise
+        acceleration = new Vector2(0, 100f);
+        direction = new Vector2(speed, speed); // TODO randomise
 
         setX(Gdx.graphics.getWidth()/2 - getObj().getWidth()/2);
         setY(Gdx.graphics.getHeight()/2 - getObj().getHeight()/2);
     }
 
     private void fly(float delta){
-        //velocity.add(acceleration.cpy().scl(delta));
-        setX(getX() + velocity.cpy().scl(delta).x);
-        setY(getY() + velocity.cpy().scl(delta).y);
+        setX(getX() + direction.cpy().scl(delta).x);
+        setY(getY() + direction.cpy().scl(delta).y);
     }
 
     @Override
     public void update(float dt) {
-        System.out.println(velocity);
-        if (getX() + this.getWidth() < Gdx.graphics.getWidth()
-                && getX() > 0)
+
+        if ( (getX() + this.getWidth() < Gdx.graphics.getWidth() && getX() > 0) || bouncing)
         {
             fly(dt);
 
         } else {
-            bounceOff(null);
+            //bounceOff(null);
+            bounceOffTheWall();
+        }
+    }
+
+    public boolean insideWalls(){
+        return getX() + this.getWidth() < Gdx.graphics.getWidth() && getX() > 0;
+    }
+
+    public void bounceOffTheWall(){
+        if(!bouncing){
+            direction.set(-direction.x, direction.y);
+            bouncing = true;
+            System.out.println("Direction from the wall: " + direction);
+        }else{
+            System.out.println("I am already bouncing my wall out of here!");
+        }
+
+    }
+
+    public void bounceOffThePaddle(Moving paddle){
+        if(paddle!=null && !bouncing) { // if bouncing off a paddle, do some math magic
+            float ballCenterX = getX() + getWidth() / 2;
+            float paddlePercentHit = (ballCenterX - paddle.getX()) / paddle.getWidth();
+            bounceAngle = MathUtils.lerpAngle(150, 30, paddlePercentHit);
+            direction.set(direction.x, -direction.y);
+            bouncing = true;
+            System.out.println("Direction from the paddle: " + direction);
+        }else{
+            System.out.println("I am already bouncing my paddle out of here!");
         }
     }
 
